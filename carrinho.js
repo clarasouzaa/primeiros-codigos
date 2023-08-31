@@ -1,7 +1,10 @@
-let n = 0;
-x = 0;
-while (n < 3) {
-  n++;
-  x += n;
-}
-alert (x);
+alert ("Supermercado do Torquato");
+let produto=0,preco=0,precoTotal=0;
+while ( preco != -1){
+preco = parseFloat(prompt ("Preço R$ "));
+precoTotal += preco;
+produto ++ ;
+} 
+precoTotal+=1;
+produto-=1;
+alert ( "  quantidade  " + produto + " : " + "R$" + precoTotal );
